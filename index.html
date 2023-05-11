@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>------------------------------------------------zad 1--------------------------------------------------</p>
+    <form action="login.php" method="post">
+        login: <input type=text name="login"> <br> hasło: <input type=password name="haslo"> <br>
+        <input type=checkbox name=zaznaczenie> <input type=submit>
+    </form>
+    <p>------------------------------------------------zad 2--------------------------------------------------</p>
+
+    <form action="zapisz.php" method="POST">
+        pseudonim<input type="text" name="pseudonim"><br> komentarz
+        <textarea name="komentazz"></textarea><br>
+        <input type="submit">
+
+
+
+    </form>
+
+
+    <p>------------------------------------------------zad 3--------------------------------------------------</p>
+    <form action="wynik.php" method="POST">
+
+        jakie auto ?
+        <select name=auto>
+    <option value=bmw>BMW</option>
+    <option value=audi>Audi</option>
+    <option value=skoda>Skoda</option>
+</select><br>
+        <br> jaka płeć ?<br> mężczyzna <input type="radio" name=r value="mężczyzna">
+        <br> kobieta <input type="radio" name=r value="kobieta">
+        <br> osoba nie binarna <input type="radio" name=r value="osoba nie binarna"><br>
+
+
+
+
+
+        <br> czy tak ? <br> tak <input type="checkbox" name=tak1><br> tak x2 <input type="checkbox" name=tak2><br> bardzo tak <input type="checkbox" name=tak3><br>
+        <input type="submit">
+
+
+
+
+    </form>
+
+    <p>------------------------------------------------zad 4--------------------------------------------------</p>
+
+    <form action="kolory.php" method="POST">
+        podaj kolor tła: <input type=text name=kolort value="#" maxlength="7"><br> podaj kolor tekstu: <input type=text name=kolorc value="#" maxlength="7"><br>
+        <input type="submit">
+    </form>
+
+
+
+    <p>------------------------------------------------zad 5--------------------------------------------------</p>
+    <form action="koszt.php" method="POST">
+        koszt benzyny<input type="text" name=benzyna><br> ilość kilometrów<input type="number" name=km><br> średnie spalanie<input type="text" name=sr><br>
+        <input type=submit>
+
+    </form>
+
+    <p>------------------------------------------------zad 6--------------------------------------------------</p>
+    <form action="pizza.php" method="POST">
+        odległość (km)<input type=number name=odlegkm><br> ciepła <input type="checkbox" name=ciepla>
+        <br><input type="submit">
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
